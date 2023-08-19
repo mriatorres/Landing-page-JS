@@ -99,3 +99,7 @@ sr.reveal(`.share__img, .send__content`, {
 sr.reveal(`.share__data, .send__img`, {
     origin: 'right'
 })
+
+/*====== GREENSOCKS ANIMATIONS IMAGES =======*/
+const home_img = document.querySelector("#home_img");
+gsap.fromTo( home_img,{ x: -40, }, { x: 40});

@@ -17,15 +17,14 @@
 
 <!--========== HEADER ==========-->
 <header class="l-header" id="header">
-    <nav class="nav bd-container">
-        <a href="#" class="nav__logo">enSeñando - LSC</a>
-
+    <nav class="nav bd-container">       
+         <a href="#" class="nav__logo">enSeñando - LSC</a>
         <div class="nav__menu" id="nav-menu">
             <ul class="nav__list">
-                <li class="nav__item"><a href="#home" class="nav__link active-link">Inicio</a></li>
-                <li class="nav__item"><a href="#share" class="nav__link">Nosotros</a></li>
-                <li class="nav__item"><a href="#decoration" class="nav__link">Aprendizaje</a></li>
-                <li class="nav__item"><a href="#accessory" class="nav__link">Cursos</a></li>
+                <li class="nav__item"><a href="#inicio" class="nav__link active-link">Inicio</a></li>
+                <li class="nav__item"><a href="#nosotros" class="nav__link">Nosotros</a></li>
+                <li class="nav__item"><a href="#aprendizaje" class="nav__link">Aprendizaje</a></li>
+                <li class="nav__item"><a href="#cursos" class="nav__link">Cursos</a></li>
 
                 <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
             </ul>
@@ -39,9 +38,9 @@
 
 <main class="l-main">
     <!--========== HOME ==========-->
-    <section class="home" id="home">
+    <section class="home" id="inicio">
         <div class="home__container bd-container bd-grid">
-            <div class="home__img">
+            <div class="home__img" id="home_img">
                 <!-- Imagen tomada de: https://icons8.com/illustrations/author/zD2oqC8lLBBA-->
                 <img src="./img/3d-hands-fun-and-wild-raising-open-brown-skin-hands.png" alt="">
             </div>
@@ -55,7 +54,7 @@
     </section>
 
     <!--========== SHARE ==========-->
-    <section class="share section bd-container" id="share">
+    <section class="share section bd-container" id="nosotros">
         <div class="share__container bd-grid">
             <div class="share__data">
                 <h2 class="section-title-center">Quiénes <br> Somos</h2>
@@ -71,7 +70,7 @@
     </section>
 
     <!--========== DECORATION ==========-->
-    <section class="decoration section bd-container" id="decoration">
+    <section class="decoration section bd-container" id="aprendizaje">
         <h2 class="section-title">Nuestra <br> Metodología</h2>
         <div class="decoration__container bd-grid">
             <div class="decoration__data">
@@ -99,7 +98,7 @@
     </section>
 
     <!--========== ACCESSORIES ==========-->
-    <section class="accessory section bd-container" id="accessory">
+    <section class="accessory section bd-container" id="cursos">
         <h2 class="section-title">Conoce Nuestros <br> Cursos</h2>
 
         <div class="accessory__container bd-grid">
@@ -155,6 +154,8 @@
                     <div class="send__direction">
                         <input type="text" placeholder="Email" class="send__input">
                         <a href="#" class="button">Enviar</a>
+
+                    </div>
                     </div>
                 </form>
             </div>
@@ -201,11 +202,18 @@
             <a href="#" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
         </div>
     </div>
-
 </footer>
+<!-- TYPEWRITER TEXT ANIMATION -->
+<script>
+    typewriterConfig = ["enseñando.SAS 2023", true]
+      typewriter();
+    </script>
 
 <!--========== SCROLL REVEAL - Librería JavaScript ==========-->
 <script src="https://unpkg.com/scrollreveal"></script>
+
+<!--======== Typewriter - Libreria JavaScript ==========-->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
         <!-- ### JS ### -->
 <script src="./js/main.js"></script>
 
