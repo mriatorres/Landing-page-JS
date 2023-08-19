@@ -303,7 +303,7 @@ img{
   color: var(--first-color-alt);
 }
 
-/*========== SHARE ==========*/
+/*========== QUIENES SOMOS ==========*/
 .share__data{
   text-align: center;
 }
@@ -317,7 +317,7 @@ img{
   justify-self: center;
 }
 
-/*========== DECORATION ==========*/
+/*========== APRENDIZAJE ==========*/
 .decoration__container{
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
@@ -343,7 +343,7 @@ img{
   margin-bottom: var(--mb-1);
 }
 
-/*========== ACCESSORIES ==========*/
+/*========== CURSOS ==========*/
 .accessory__container{
   grid-template-columns: repeat(2,1fr);
   padding-bottom: 2rem;
@@ -397,7 +397,7 @@ img{
   border-radius: 1rem 0 1rem 0;
 }
 
-/*========== SEND GIFT ==========*/
+/*========== SUSCRIBETE ==========*/
 .send{
   background-color: var(--first-color-send);
 }
